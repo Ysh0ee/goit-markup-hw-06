@@ -534,7 +534,9 @@ body {
 
 .footer__title {
    margin: 0 0 16px 0;
+   font-size: 16px;
    font-weight: 500;
+   line-height: 1.5;
    color: #ffffff;
 }
 
@@ -563,7 +565,7 @@ body {
 }
 
 .footer__social {
-   margin: 0 80px 0 0;
+   margin: 0 auto 0 0;
 }
 
 .footer__form {
@@ -575,6 +577,7 @@ body {
 .footer__form-email {
    padding: 8px 16px;
    margin: 0 24px 0 0;
+   width: 264px;
    font-size: 12px;
    font-weight: 400;
    line-height: 1.9;
@@ -704,7 +707,8 @@ body {
 }
 
 .modal-label-text {
-   margin: 0 0 4px 0;
+   display: inline-block;
+   margin: 0 0 8px 0;
    font-size: 12px;
    line-height: 1.16;
    letter-spacing: 0.04em;
